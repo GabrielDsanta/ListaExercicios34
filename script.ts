@@ -58,3 +58,27 @@
 
 
 //Exercicio 03//
+
+let Numero = Number(prompt("Digite um número"))
+let Digito = Number(prompt("Digite um digito"))
+
+CalcularQuadrado(Numero, Digito)
+
+
+
+
+function CalcularQuadrado(numero: number, digito: number){
+    let NumerosAoQuadrado: number[] = []
+
+    for (let index = 0; index <= Numero; index++) {
+        NumerosAoQuadrado.push(Numero * index)
+    }
+
+    NumerosAoQuadrado.forEach(ContarDigitos)
+
+    function ContarDigitos(item: number, index: number){
+        
+    }
+
+}
+
