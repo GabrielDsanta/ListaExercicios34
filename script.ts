@@ -32,6 +32,7 @@
 
 
 // function StringEmParenteses(PerguntaA: string){
+    // PerguntaA = PerguntaA.toLocaleLowerCase()
 //     let ListaDeLetras = PerguntaA.split("")
 //     let ListaSubstituida = PerguntaA.split("")
 
@@ -59,26 +60,29 @@
 
 //Exercicio 03//
 
-let Numero = Number(prompt("Digite um número"))
-let Digito = Number(prompt("Digite um digito"))
+// let Numero = Number(prompt("Digite um número"))
+// let Digito = String(prompt("Digite um digito"))
 
-CalcularQuadrado(Numero, Digito)
-
-
+// CalcularQuadrado(Numero, Digito)
 
 
-function CalcularQuadrado(numero: number, digito: number){
-    let NumerosAoQuadrado: number[] = []
 
-    for (let index = 0; index <= Numero; index++) {
-        NumerosAoQuadrado.push(Numero * index)
-    }
 
-    NumerosAoQuadrado.forEach(ContarDigitos)
+// function CalcularQuadrado(numero: number, digito: string){
+//     let NumerosAoQuadrado: number[] = []
+//     let Contador = 0
 
-    function ContarDigitos(item: number, index: number){
-        
-    }
+//     for (let index = 0; index <= Numero; index++) {
+//         NumerosAoQuadrado.push(index * index)
+//     }
 
-}
+//     let NumerosString = NumerosAoQuadrado.join("")
 
+//     for (let index = 0; index <= NumerosString.length; index++){
+//         if(NumerosString.charAt(index) == digito){
+//             Contador++
+//         }
+//     }
+
+//     alert(Contador)
+// }
